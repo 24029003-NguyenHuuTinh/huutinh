@@ -1,0 +1,80 @@
+body{
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial;
+}
+
+.menu{
+    margin-bottom:20px;
+}
+
+.menu a{
+    margin-right:20px;
+    text-decoration:none;
+    color:blue;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    color:red;
+}
+
+.hoso{
+    width:700px;
+    margin:auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+
+    display:flex;
+    align-items:center;
+}
+
+.anh img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-right:20px;
+}
+
+.thongtin{
+    text-align:left;
+}
+
+.sothich{
+    width:700px;
+    margin:20px auto;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.box{
+    width:180px;
+    padding:20px;
+    background:white;
+    border-radius:15px;
+}
+
+.box:hover{
+    background-color:lightblue;
+}
+
+.lienhe{
+    width:700px;
+    margin:20px auto;
+    background:white;
+    padding:20px;
+    border-radius:15px;
+}
+
+.lienhe a{
+    display:block;
+    margin-bottom:10px;
+    text-decoration:none;
+    color:blue;
+}
+
+.lienhe a:hover{
+    color:red;
+}
